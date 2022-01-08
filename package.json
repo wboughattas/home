@@ -1,13 +1,12 @@
 {
-  "name": "developers-portfolio",
-  "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "http://hashirshoaeb.com/home",
-  "version": "2.0.0",
+  "name": "wasim-portfolio",
+  "description": "A forked personal portfolio hosted with GitHub Pages, built to showcase my recent projects.",
+  "homepage": "https://wboughattas.github.io/home",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
-    "email": "hashirshoaeb@gmail.com",
-    "url": "https://github.com/hashirshoaeb"
+    "name": "Wasim Boughattas",
+    "email": "wboughattas@outlook.com",
+    "url": "https://github.com/wboughattas"
   },
   "dependencies": {
     "axios": "^0.19.2",
