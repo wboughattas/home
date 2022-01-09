@@ -11,6 +11,8 @@
 
 </p>
 
+[![Site preview](/public/social-image.png)](https://wboughattas.github.io/home)
+
 ## Technology Stack
 Dependencies defined in package.json:
 
