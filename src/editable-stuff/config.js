@@ -20,7 +20,10 @@ const about = {
     heading: "About Me",
     imageLink: require("./wasim.png"),
     imageSize: 375,
-    message: "I am a final-year undergraduate at Concordia University and pursuing a degree in actuarial math and " + "computer science. I am most passionate about data engineering, machine learning, and predictive analysis. " + "I have broad knowledge in many fields including: data engineering, machine learning, " + "artificial intelligence, risk models and probabilistic methods.",
+    message: "I am a final-year undergraduate at Concordia University and pursuing a degree in actuarial math and " +
+        "computer science. I am most passionate about data engineering, machine learning, and predictive analysis. " +
+        "I have broad knowledge in many fields including: data engineering, machine learning, " +
+        "algorithmic trading, risk models, and probabilistic methods.",
     resume: require("./resume.pdf"),
 };
 
@@ -31,7 +34,7 @@ const career = {
         Title: "Omnia AI: Data Engineer - Co-op/Intern",
         Time: "January, 2021 – April, 2021",
         Descriptions: [
-            ["▪ Created a generalized solution to Big Data case requests by generalizing an existing Python" +
+            ["▪ Created a generalized solution to Big Data case requests by generalizing an existing Python " +
             "code from a previous specific case. Worked on Ubuntu Server and employ Apache tools (Hadoop, Spark, hive) "],
             ["▪ Worked with business managers to understand business objectives and develop automated reporting " +
             "solutions using DAX, and M in Power BI "],
@@ -70,7 +73,7 @@ const education = {
 const repos = {
     show: true,
     heading: "Personal Projects",
-    gitHubUsername: "wboughattas", //i.e."johnDoe12Gh"
+    gitHubUsername: "wboughattas",
     reposLength: 0,
     specificRepos: ['Stock-Trading-Robot', 'COVID-19-Vaccination-System', 'Electricity-Price-Forecasting'],
 };
@@ -80,23 +83,23 @@ const skills = {
     heading: "Skills",
     hardSkills: [
         {name: "Python", value: 80},
-        {name: "R", value: 80},
         {name: "SQL", value: 80},
+        {name: "R", value: 70},
         {name: "Flux", value: 70},
-        {name: "Java", value: 70},
-        {name: "Bash", value: 65},
-        {name: "Docker", value: 65},
-        {name: "Spark", value: 65}
+        {name: "Java", value: 65},
+        {name: "Spark", value: 60},
+        {name: "Bash", value: 60},
+        {name: "Docker", value: 60}
     ],
     softSkills: [
-        {name: "Data Analysis", value: 80},
-        {name: "Machine Learning", value: 75},
+        {name: "Data Analysis", value: 75},
+        {name: "Supervised Machine Learning", value: 70},
         {name: "Data Engineering", value: 70},
-        {name: "Probabilistic Methods", value: 60},
-        {name: "Actuarial Risk Models", value: 60},
+        {name: "Algorithmic Trading", value: 70},
+        {name: "Probabilistic Methods", value: 55},
+        {name: "Actuarial Risk Models", value: 55},
         {name: "Natural Language Processing", value: 55},
-        {name: "Artificial Intelligence", value: 50},
-        {name: "Multi-Agent Reinforcement Learning", value: 50}
+        {name: "Multi-Agent Reinforcement Learning", value: 30}
     ]
 };
 
@@ -115,7 +118,9 @@ const Publications = {
 const getInTouch = {
     show: true,
     heading: "Get In Touch",
-    message: "I'm currently looking for a 3rd internship that involves data engineering, machine learning, " + "and predictive analysis! If you know of any positions available, if you have any questions, or if you just " + "want to say hi, please feel free to email me at",
+    message: "I'm currently looking for a 3rd internship that involves data engineering, machine learning, " +
+        "and predictive analysis! If you know of any positions available, if you have any questions, or if you just "
+        + "want to say hi, please feel free to email me at",
     email: "wboughattas@outlook.com",
 };
 
