@@ -48,6 +48,7 @@ const career = {
         Title: "Omnia AI: Data Engineer - Co-op/Intern",
         Time: "May, 2022 – August, 2022",
         Descriptions: [],
+        // todo: update this section, update the CV, import CV
         TechStack: [""]
     }, {
         CompanyName: "Vanier College",
@@ -55,7 +56,7 @@ const career = {
         Title: "Science/Math Tutor",
         Time: "Sep, 2018 – May, 2019",
         Descriptions: [
-            ["Peer Tutoring for Math and Science"],
+            ["Tutor peers in math and science"],
             ["Help students in their homework and guide them to find better study methodologies"]
         ],
         TechStack: ["Communication skills, Teaching methods, Empathy"]
