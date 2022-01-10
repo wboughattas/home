@@ -12,10 +12,10 @@
 5. Edit [title](./public/index.html#L34) and meta [description](./public/index.html#L13) in [public/index.html](./public/index.html).
 6. Change URL in [package.json](./package.json) file:
 
-   ```json
+````   ```json
      "homepage": "https://<your-username>.github.io"
    ```
-
+````
 7. Now, create a new empty repository named \<your-username>.github.io and leave it there.
 8. Now you need to go to [pages.js](../pages.js#L3)
    There you must change the 3rd line. As it the the url of your empty repository:

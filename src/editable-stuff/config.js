@@ -7,7 +7,7 @@ const mainBody = {
     firstName: "Wasim",
     middleName: "",
     lastName: "Boughattas",
-    message: "Java R Python • SQL Flux Spark • InfluxDB PowerBI • Docker Ubuntu",
+    message: "Java R Python • SQL Flux Bash • Spark Docker • InfluxDB PowerBI Grafana",
     icons: [{
         image: "fa-github", url: "https://github.com/wboughattas",
     }, {
@@ -34,12 +34,13 @@ const career = {
         Title: "Omnia AI: Data Engineer - Co-op/Intern",
         Time: "January, 2021 – April, 2021",
         Descriptions: [
-            ["▪ Created a generalized solution to Big Data case requests by generalizing an existing Python " +
-            "code from a previous specific case. Worked on Ubuntu Server and employ Apache tools (Hadoop, Spark, hive) "],
-            ["▪ Worked with business managers to understand business objectives and develop automated reporting " +
-            "solutions using DAX, and M in Power BI "],
-            ["▪ Created automated python processes that enable data manipulation using Pandas and display the console" +
-            "into an end-user-friendly GUI application using the Gooey library"]],
+            ["▪ Create a generalized solution to future Big Data cases using an existing python code from a previous " +
+            "case. Worked on Ubuntu Server and employed Apache tools (Hadoop, Spark, hive)"],
+            ["▪ Work with business managers to understand business objectives and develop automated reporting " +
+            "solutions using Power BI "],
+            ["▪ Creat automated python processes that enable data manipulation using Pandas and display " +
+            "the console into an end-user-friendly GUI application using the Gooey library"]
+        ],
         TechStack: ["Python, Spark, HiveSQL, Linux, PowerBI"]
     }, {
         CompanyName: "Deloitte Canada",
@@ -48,6 +49,16 @@ const career = {
         Time: "May, 2022 – August, 2022",
         Descriptions: [],
         TechStack: [""]
+    }, {
+        CompanyName: "Vanier College",
+        Address: "Quebec, MTL",
+        Title: "Science/Math Tutor",
+        Time: "Sep, 2018 – May, 2019",
+        Descriptions: [
+            ["Peer Tutoring for Math and Science"],
+            ["Help students in their homework and guide them to find better study methodologies"]
+        ],
+        TechStack: ["Communication skills, Teaching methods, Empathy"]
     }]
 };
 
