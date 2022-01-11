@@ -48,7 +48,8 @@ const career = {
         Title: "Omnia AI: Data Engineer - Co-op/Intern",
         Time: "May, 2022 – August, 2022",
         Descriptions: [],
-        // todo: update this section, update the CV, import CV
+        //todo: update this section, update the CV, import CV
+        //todo: add bullet point to Vanier + add comp432 project to cv and website
         TechStack: [""]
     }, {
         CompanyName: "Vanier College",
