@@ -19,7 +19,7 @@ const API = "https://api.github.com";
 
 const Project = ({ heading, username, length, specfic }) => {
   const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
-  const specficReposAPI = `${API}/repos/${username}`;
+  const specficReposAPI = `${API}/repos`;
   const dummyProjectsArr = new Array(length + specfic.length).fill(
     dummyProject
   );
