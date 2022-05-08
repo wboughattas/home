@@ -7,7 +7,6 @@ import {
     repos,
     skills,
     getInTouch,
-    experiences,
     career,
     education,
     Publications
@@ -20,7 +19,6 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 
-import Experience from "./components/home/Experience";
 import Career from "./components/home/Career";
 import Education from "./components/home/Education";
 import Publication from "./components/home/Publication";
@@ -70,9 +68,6 @@ const Home = React.forwardRef((props, ref) => {
                     hardSkills={skills.hardSkills}
                     softSkills={skills.softSkills}
                 />
-            )}
-            {experiences.show && (
-                <Experience experiences={experiences}/>
             )}
             {Publications.show && (
                 <Publication
