@@ -7,7 +7,7 @@ const mainBody = {
     firstName: "Wasim",
     middleName: "",
     lastName: "Boughattas",
-    message: "Python: Scikit-Learn, PyTorch, Keras • SQL: MySQL, HiveQL, SPARQL • R • Flux • Java",
+    message: "Java • Scala • Python: Pandas, Matplotlib, Scikit-Learn, PyTorch, Keras • SQL: SparkQL, SPARQL, MySQL, HiveQL, MongoDB, DynamoDB • R",
     icons: [{
         image: "fa-github", url: "https://github.com/wboughattas",
     }, {
@@ -29,30 +29,27 @@ const about = {
 
 const career = {
     show: true, heading: "Career", lists: [{
-        CompanyName: "Deloitte Canada",
+        CompanyName: "Environment and Climate Change Canada",
         Address: "Montreal, QC",
-        Title: "Omnia AI: Data Engineer - Co-op/Intern",
+        Title: "Junior Data Scientist / Junior Data Engineering Climate Policy Implementation Co-op Intern (4 months)",
         Time: "May, 2022 – August, 2022",
         Descriptions: [
-            ["▪ Implemented business intelligence solutions and advanced analytics to identify opportunities to meet " +
-            "business goals"],
-            ["▪ Automated ETL processes and ingested data from different data sources: SQL and multiple APIs using " +
-            "Python"]
+            ["▪ Automated financial reporting by building a software using Python that executes account reconciliation, perform data extraction from SAP, and prepare financial reports and statements"],
+            ["▪ Participated in the standardization of reports and templates that aims to produce consistent and actionable information from various systems and sources"]
         ],
-        TechStack: ["Python, Spark, HiveSQL, Linux, PowerBI"]
+        TechStack: ["Python, Finance, Accounting"]
     }, {
         CompanyName: "Deloitte Canada",
         Address: "Montreal, QC",
-        Title: "Omnia AI: Data Engineer - Co-op/Intern",
-        Time: "January, 2021 – April, 2021",
+        Title: "Omnia AI: Data Engineer - Co-op/Intern (8 months)",
+        Time: "January, 2021 – April, 2021 & May, 2022 – August, 2022",
         Descriptions: [
-            ["▪ Built an in-house scalable database capable of ETL processes using HiveQL and Spark"],
-            ["▪ Presented and communicated actionable insights in a way tailored to specific audience and client’s " +
-            "needs using PowerBI"],
-            ["▪ Translated client’s propositions into quantitative queries and collected/cleaned the necessary data " +
-            "using Pandas"]
+            ["▪ Constructed a data pipeline to process streamed & chunked data on AWS and simulated data extraction by creating a networking infrastructure: VPC, RTB, ELB, and NAT, and generating live data from Guard Duty, Firewall (flow/alerts), and EC2"],
+            ["▪ Automated (1) extraction processes using Lambda, Kinesis, and Firehose, (2) transformation processes using EMR (PySpark), and (3) loading processes using S3, Document DB, and Dynamo DB, for front-end visualization, reporting, and data science"],
+            ["▪ Presented and communicated actionable insights in a way tailored to specific audience and client’s needs using PowerBI"],
+            ["▪ Translated client’s propositions into quantitative queries and collected/cleaned the necessary data using Pandas"]
         ],
-        TechStack: ["Python, Spark, HiveSQL, Linux, PowerBI"]
+        TechStack: ["AWS, Python, Spark, HiveQL, PowerBI"]
     }, {
         CompanyName: "Vanier College",
         Address: "Montreal, QC",
@@ -63,19 +60,6 @@ const career = {
             ["▪ Implemented electoral procedures, established electoral lists, and organized elections"]
         ],
         TechStack: ["Communication skills, Teaching methods"]
-    }, {
-        CompanyName: "Concordia University & McGill University",
-        Address: "Montreal, QC",
-        Title: "Laboratory Research Assistant",
-        Time: "2018 – 2019",
-        Descriptions: [
-            ["▪ Participated in two graduate projects: Convex Lens Induced Confinement Microscopy and Eco-Evo-Devo, " +
-            "respectively"],
-            ["▪ Worked with sensitive instruments alongside post-graduate students under the supervisions of Dr. Valter " +
-            "Zazubovits and Dr. Ehab Abouheif, respectively"]
-        ],
-        TechStack: ["Advanced reading and comprehension skills, Advanced writing skills, Full-focus listening, Detailed " +
-        "note-taking"]
     }]
 };
 
@@ -151,7 +135,7 @@ const Publications = {
 const getInTouch = {
     show: true,
     heading: "Get In Touch",
-    message: "I'm currently looking for a 3rd internship that involves data engineering, machine learning, " +
+    message: "I'm currently looking for a full-time that involves data engineering, machine learning, " +
         "and predictive analysis! If you know of any positions available, if you have any questions, or if you just "
         + "want to say hi, please feel free to email me at",
     email: "wboughattas@outlook.com",
